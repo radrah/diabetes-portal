@@ -1,0 +1,305 @@
+.App {
+  text-align: center;
+  background-color: #F5F5F5;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.Body{
+  background-color: #F5F5F5;
+}
+
+.Body-sec {
+  background-color: #F5F5F5;
+  margin-left: 385px;
+  display: block;
+  padding: 16px 0px 0px 16px;
+  position: absolute;
+  margin-top: 93px;
+  z-index: -1;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  float: right;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* NAVIGATION CSS */
+
+.customNavigation{
+  float: left;
+}
+
+ /* DASHBOARD CSS */
+.customDashboardTop{
+  float: left;
+  margin-left: 10px;
+  justify-content: left;
+  align-items: left;
+}
+
+
+element.style{
+  font-family: Montserrat;
+}
+
+.customWorkoutsCompletedGraph{
+  /* margin-left: calc(280px + 3%); */
+  margin-left: 20px;
+  margin-top: 2%;
+}
+
+
+
+ .dashboardBottom{
+   background-color: #F5F5F5;
+   float: left;
+   padding-top: 2%;
+   padding-bottom: 5%;
+   padding-left: 6%;
+   width: 80%;
+ }
+
+ .customRecentMessages{
+  float: left;
+  margin-left: 480px;
+  margin-top: -256px;
+}
+
+.customWorkoutResponses{
+ margin-left: calc(-4%);
+}
+
+  /* USERS CSS */
+  .patientsTableDiv{
+    margin-left: 300px; 
+    background-color: white;
+    padding: 5%;
+    border-radius: 25px;
+  }
+
+  .customPatientCollection{
+    margin-left: 300px; 
+    background-color: white;
+    padding: 5%;
+    border-radius: 25px;
+  }
+
+  .patientsFooter{
+    margin-top: 50px;
+  }
+
+   /* SCHEDULES CSS */
+   .scheduleDiv{
+     width: 75%;
+     margin-bottom: 20%;
+     margin-left: 300px;
+   }
+
+   .customCalendar{
+     width: auto;
+     float: left;
+     margin-left: 5%;
+     display: flex;
+     margin-right: 5%;
+   }
+
+   .customAppointmentSchedule{
+     float: inline-end;
+     padding-left: 5%;
+     margin-left: 5%;
+     display: flex;
+   }
+
+
+/* WORKOUT PLAN CSS */
+table, tr, td {
+    border: none;
+    border-collapse: collapse;
+}
+
+.workoutRow{
+  background-color: #EDEDED;
+  padding: 2%;
+}
+
+.workoutColumnLeft {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+
+.workoutColumnRight {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.workoutTable{
+  border: none;
+  width: 100%;
+}
+
+.workoutPlan{
+  background-color: white;
+  border-radius: 25px;
+  margin-left: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+  padding-bottom: 15%;
+  width: 100%;
+  height: 80%;
+  float: left;
+}
+
+.customPatientProfiles{
+  float: right;
+}
+
+
+.workoutBottom{
+  margin-left: 25%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.bottomColumn{
+  padding-left: 20px;
+  margin-top: 5%;
+}
+
+
+/* TEXT CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.montserrat {
+font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+.lato {
+font-family: 'Lato', sans-serif;
+}
+
+html * {
+  font-family: Montserrat;
+}
+
+p.amplify-text{
+  font-family: Montserrat;
+}
+
+h1{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  line-height: 28.125px;
+  text-align: left;
+  margin-left: 25%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+p{
+  font-family: Montserrat;
+}
+.footer{
+  margin-top: 50%;
+}
+
+
+/* SWITCH CSS */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
