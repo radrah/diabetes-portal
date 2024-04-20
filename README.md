@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# CS399 Capstone Course - Diabetes Rehab Portal for Doctors
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
