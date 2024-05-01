@@ -125,6 +125,7 @@ function Navigation(props) {
         padding="0px 0px 0px 0px"
         onClick= {signOut}
         whiteSpace="pre-wrap"
+        width="30%"
         children="Sign Out"
         {...getOverrideProps(overrides, "Sign Out")}
       ></Button>
@@ -146,7 +147,7 @@ function Navigation(props) {
         right="50.71%"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="Users"
+        children="Patients"
         {...getOverrideProps(overrides, "Users")}
       ></Text></Link>
       <Link to="/schedule">
@@ -188,6 +189,7 @@ function Navigation(props) {
         right="24.29%"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
+        width="50%"
         children= "Workout Plan"
         {...getOverrideProps(overrides, "Workout Plan")}
       ></Text></Link>
@@ -195,7 +197,7 @@ function Navigation(props) {
       <Text
         fontFamily="Montserrat"
         fontSize="18px"
-        fontWeight="700"
+        fontWeight="400"
         color="rgba(255,255,255,1)"
         lineHeight="21.09375px"
         textAlign="left"

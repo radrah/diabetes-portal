@@ -105,10 +105,11 @@ element.style{
 
   /* USERS CSS */
   .patientsTableDiv{
-    margin-left: 300px; 
+    margin-right: 300px; 
+    margin-top: 60px;
     background-color: white;
-    padding: 5%;
-    border-radius: 25px;
+    padding-left: 2%;
+    padding-top: 1%;
   }
 
   .customPatientCollection{
